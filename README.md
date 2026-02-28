@@ -138,7 +138,6 @@ php artisan serve
 | GET    | /api/invoices    | List all invoices        |
 | POST   | /api/invoices    | Create new invoice       |
 
-_For complete API documentation, see `docs/API.md`_
 
 📄 License
 This project is licensed under the MIT License. See the LICENSE file.
