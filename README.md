@@ -12,7 +12,7 @@ This system handles patients, appointments, treatments, invoices, staff, and mor
 - [Project Structure](#project-structure)
 - [Usage](#usage)
 - [Database](#database)
-- [API Examples](#api-examples)
+- [API Examples](#api-examples)a
 - [Testing](#testing)
 - [Contributing](#contributing)
 - [Security](#security)
@@ -93,44 +93,52 @@ php artisan migrate
 php artisan serve
 ```
 
-🚀 Usage
-Authentication
-Method	Endpoint	Description
-POST	/api/register	Register a new user
-POST	/api/login	Login
-POST	/api/logout	Logout (requires auth)
-Patients
-Method	Endpoint	Description
-GET	/api/patients	List all patients
-GET	/api/patients/{id}	Show patient details
-POST	/api/patients	Create new patient
-PUT	/api/patients/{id}	Update patient info
-DELETE	/api/patients/{id}	Delete patient
-Appointments & Treatments
+## 🚀 Usage
 
-/api/appointments (GET/POST/PUT/DELETE)
+### Authentication
 
-/api/treatments (GET/POST/PUT/DELETE)
+| Method | Endpoint       | Description               |
+|--------|----------------|---------------------------|
+| POST   | /api/register  | Register a new user       |
+| POST   | /api/login     | Login                     |
+| POST   | /api/logout    | Logout (requires auth)    |
 
-/api/invoices (GET/POST)
+### Patients Management
 
-For complete API documentation, see docs/API.md
+| Method | Endpoint              | Description            |
+|--------|----------------------|------------------------|
+| GET    | /api/patients        | List all patients      |
+| GET    | /api/patients/{id}   | Show patient details   |
+| POST   | /api/patients        | Create new patient     |
+| PUT    | /api/patients/{id}   | Update patient info    |
+| DELETE | /api/patients/{id}   | Delete patient         |
 
-🗄 Database
+### Appointments
 
-Main Tables / Models:
+| Method | Endpoint                | Description                  |
+|--------|------------------------|------------------------------|
+| GET    | /api/appointments      | List all appointments        |
+| POST   | /api/appointments      | Create new appointment       |
+| PUT    | /api/appointments/{id} | Update appointment details   |
+| DELETE | /api/appointments/{id} | Cancel appointment           |
 
-Users (Admin, Dentist, Staff)
+### Treatments
 
-Patients
+| Method | Endpoint               | Description             |
+|--------|-----------------------|-------------------------|
+| GET    | /api/treatments       | List all treatments     |
+| POST   | /api/treatments       | Create new treatment    |
+| PUT    | /api/treatments/{id}  | Update treatment info   |
+| DELETE | /api/treatments/{id}  | Delete treatment        |
 
-Appointments
+### Invoices
 
-Treatments
+| Method | Endpoint           | Description              |
+|--------|------------------|--------------------------|
+| GET    | /api/invoices    | List all invoices        |
+| POST   | /api/invoices    | Create new invoice       |
 
-Invoices
-
-Services
+_For complete API documentation, see `docs/API.md`_
 
 📄 License
 This project is licensed under the MIT License. See the LICENSE file.
