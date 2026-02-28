@@ -4,23 +4,6 @@ A RESTful backend API for managing dental clinic operations, built with **Larave
 This system handles patients, appointments, treatments, invoices, staff, and more.
 
 ---
-
-## 📋 Table of Contents
-- [Features](#features)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Project Structure](#project-structure)
-- [Usage](#usage)
-- [Database](#database)
-- [API Examples](#api-examples)a
-- [Testing](#testing)
-- [Contributing](#contributing)
-- [Security](#security)
-- [Support & Contact](#support--contact)
-- [License](#license)
-
----
-
 ## ✨ Features
 
 ### Patients Management
@@ -139,5 +122,6 @@ php artisan serve
 | POST   | /api/invoices    | Create new invoice       |
 
 
-📄 License
+## 📄 License
+
 This project is licensed under the MIT License. See the LICENSE file.
