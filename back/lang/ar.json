@@ -1,0 +1,165 @@
+{
+    "clinic": "عيادة",
+    "services": "خدمات",
+    "stages": "مراحل",
+    "service": "خدمة",
+    "name": "الاسم",
+    "phone": "الهاتف",
+    "bio": "نبذة",
+    "title": "العنوان",
+    "description": "الوصف",
+    "status": "الحالة",
+    "pending": "قيد الانتظار",
+    "approved": "موافق عليه",
+    "rejected": "مرفوض",
+    "expired": "منتهي",
+    "duration": "المدة",
+    "email": "البريد الإلكتروني",
+    "number": "الرقم",
+    "password": "كلمة المرور",
+    "profile_image": "صورة الملف الشخصي",
+    "gender": "الجنس",
+    "date_of_brith": "تاريخ الميلاد",
+    "blood_type": "فصيلة الدم",
+    "search_term": "كلمة البحث",
+    "rating": "التقييم",
+    "comment": "التعليق",
+    "price": "السعر",
+
+    "clinic.payment.success": "تم الدفع بنجاح للعيادة",
+    "clinic.checkout_created": "تم إنشاء جلسة الدفع",
+
+    "unauthorized": "غير مصرح",
+    "Unauthorized": "غير مصرح",
+
+    "clinic updated successfully": "تم تحديث بيانات العيادة بنجاح",
+
+    "user_not_found": "المستخدم غير موجود",
+    "staff added successfully": "تمت إضافة الموظف بنجاح",
+
+    "Only doctor or secretary roles are supported": "يتم دعم أدوار الطبيب أو السكرتير فقط",
+    "user_does_not_have_role": "المستخدم لا يمتلك الدور المطلوب",
+    "Clinic not found": "العيادة غير موجودة",
+    "working hours updated successfully": "تم تحديث ساعات العمل بنجاح",
+
+    "Image added": "تمت إضافة الصورة",
+    "Image deleted": "تم حذف الصورة",
+    "Images retrieved successfully": "تم جلب الصور بنجاح",
+
+    "Unauthorized or clinic not found": "غير مصرح أو العيادة غير موجودة",
+    "Doctors fetched successfully": "تم جلب الأطباء بنجاح",
+    "Secretaries fetched successfully": "تم جلب السكرتارية بنجاح",
+    "Clinic retrieved successfully": "تم جلب العيادة بنجاح",
+    "Clinics fetched": "تم جلب العيادات",
+    "Clinics sent": "تم إرسال العيادات",
+
+    "You are not authorized to add services to this clinic": "غير مسموح لك بإضافة خدمات لهذه العيادة",
+    "Service already linked to clinic": "الخدمة مرتبطة بالفعل بالعيادة",
+    "Service linked to clinic successfully'": "تم ربط الخدمة بالعيادة بنجاح",
+
+    "Clinic or service not found": "العيادة أو الخدمة غير موجودة",
+    "You are not authorized to remove services from this clinic": "غير مسموح لك بإزالة الخدمات من هذه العيادة",
+    "This service is not found in this clinic": "هذه الخدمة غير موجودة في هذه العيادة",
+    "Service removed successfully": "تمت إزالة الخدمة بنجاح",
+
+    "Clinic services fetched successfully": "تم جلب خدمات العيادة بنجاح",
+    "Services fetched successfully": "تم جلب الخدمات بنجاح",
+    "Service not found": "الخدمة غير موجودة",
+    "Stages fetched successfully": "تم جلب المراحل بنجاح",
+    "Services sent": "تم إرسال الخدمات",
+
+    "You are not authorized to add advertisements to this clinic": "غير مسموح لك بإضافة إعلانات لهذه العيادة",
+    "Advertisement submitted for approval": "تم تقديم الإعلان للموافقة",
+
+    "Advertisement not found": "الإعلان غير موجود",
+    "Clinic Advertisement Subscription": "اشتراك إعلان العيادة",
+    "Checkout session created": "تم إنشاء جلسة الدفع",
+
+    "Advertisement updated and awaiting admin approval again": "تم تحديث الإعلان وينتظر موافقة الإدارة مرة أخرى",
+    "Advertisement retrieved successfully": "تم جلب الإعلان بنجاح",
+    "Unauthorized access to clinic advertisements": "وصول غير مصرح به لإعلانات العيادة",
+    "Clinic advertisements retrieved successfully": "تم جلب إعلانات العيادة بنجاح",
+
+    "All advertisements retrieved successfully": "تم جلب جميع الإعلانات بنجاح",
+    "Payment link not required": "رابط الدفع غير مطلوب",
+    "Could not generate payment link": "تعذر إنشاء رابط الدفع",
+    "Payment Link for Your Approved Advertisement": "رابط الدفع لإعلانك الموافق عليه",
+    "Please complete your payment to activate the advertisement": "يرجى إتمام الدفع لتفعيل الإعلان",
+    "Payment link resent successfully": "تمت إعادة إرسال رابط الدفع بنجاح",
+    "advertisement_payment": "دفع الإعلان",
+
+    "Subscription not found": "الاشتراك غير موجود",
+    "The advertisement subscription will expire in few days": "ستنتهي صلاحية اشتراك الإعلان خلال أيام قليلة",
+
+    "Advertisement subscription status fetched successfully": "تم جلب حالة اشتراك الإعلان بنجاح",
+    "Subscription Expiry Alert": "تنبيه بانتهاء الاشتراك",
+    "The clinic subscription will expire in few days": "ستنتهي صلاحية اشتراك العيادة خلال أيام قليلة",
+    "Clinic subscription status fetched successfully": "تم جلب حالة اشتراك العيادة بنجاح",
+    "Advertisement subscription price and duration set successfully": "تم تعيين سعر ومدة اشتراك الإعلان بنجاح",
+    "CLinic subscription price and duration set successfully": "تم تعيين سعر ومدة اشتراك العيادة بنجاح",
+    "No subscriptions found for this clinic": "لا توجد اشتراكات لهذه العيادة",
+    "Clinic subscriptions fetched successfully": "تم جلب اشتراكات العيادة بنجاح",
+    "No advertisement subscriptions found for this clinic": "لا توجد اشتراكات إعلانات لهذه العيادة",
+    "Advertisement subscriptions fetched successfully": "تم جلب اشتراكات الإعلان بنجاح",
+
+    "Already handled": "تمت المعالجة بالفعل",
+    "Advertisement Approved": "تمت الموافقة على الإعلان",
+    "Your advertisement has been approved. Please complete payment to activate it": "تمت الموافقة على إعلانك. يرجى إتمام الدفع لتفعيله",
+
+    "Advertisement Rejected": "تم رفض الإعلان",
+    "Your advertisement has been rejected. Please try again later": "تم رفض إعلانك. يرجى المحاولة لاحقًا",
+
+    "advertisement_rejected": "الإعلان مرفوض",
+    "Advertisement rejected": "تم رفض الإعلان",
+    "Subscription settings fetched successfully": "تم جلب إعدادات الاشتراك بنجاح",
+
+    "Account created": "تم إنشاء الحساب بنجاح",
+    "invalid credentials": "بيانات تسجيل الدخول غير صحيحة",
+    "Login successfully": "تم تسجيل الدخول بنجاح",
+    "OTP expired": "انتهت صلاحية رمز التحقق",
+    "Invalid OTP": "رمز التحقق غير صحيح",
+    "Verified successfully": "تم التحقق بنجاح",
+    "Token not provided": "لم يتم إرسال رمز الدخول",
+    "Invalid or expired token": "رمز الدخول غير صالح أو منتهي الصلاحية",
+    "User fetched successfully": "تم جلب بيانات المستخدم بنجاح",
+    "Logout successfully": "تم تسجيل الخروج بنجاح",
+    "OTP sent": "تم إرسال رمز التحقق",
+    "User not found.": "المستخدم غير موجود",
+    "OTP sent successfully.": "تم إرسال رمز التحقق بنجاح",
+    "Password reset successfully": "تم إعادة تعيين كلمة المرور بنجاح",
+    "clinics sent": "تم إرسال قائمة العيادات",
+
+
+
+
+
+    
+
+    "data_sent": "Data sent",
+    "clinics_sent": "Clinics sent",
+    "clinic_not_found": "Clinic not found",
+    "clinic_sent": "Clinic sent",
+    "favourite_clinics_sent": "favourite clinics sent",
+    "location_updated": "location updated",
+    "clinic_added_to_favourites": "clinic added to favourites",
+    "clinic_already_in_favourites": "clinic already in favourites",
+    "clinic_removed_from_favourites": "clinic removed from favourites",
+    "clinic_is_not_in_favourites": "clinic is not in favourites",
+
+
+    "treatment_added": "تمت إضافة العلاج",
+    "appointment_booked": "تم حجز الموعد",
+    "services_with_stages_sent": "تم إرسال الخدمات مع المراحل المتاحة",
+    "stage_available_dates_sent": "تم إرسال المواعيد المتاحة للمراحل",
+    "patients_sent": "تم إرسال قائمة المرضى",
+    "patient_data_sent": "تم إرسال بيانات المريض",
+    "data_created": "تم إنشاء البيانات",
+    "appointments_sent": "تم إرسال المواعيد",
+    "otp_expired": "انتهت صلاحية كود التحقق",
+    "invalid_otp": "كود التحقق غير صحيح",
+    "service_not_available_in_clinic": "الخدمة غير متاحة في هذه العيادة",
+    "only_doctors_can_add_treatment": "فقط الأطباء يمكنهم إضافة هذا العلاج",
+    "appointment_time_not_available": "وقت الموعد غير متاح",
+    "patient_already_has_data": "المريض لديه بيانات مسبقة"
+
+}
